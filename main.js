@@ -63,11 +63,11 @@ else {
                 break;
             }
 
-
+        }
 
             switch (pergunta2) {
 
-                case "1" , "3":
+                case "1":
                     let resposta2case1 = document.getElementById("respostaE2case1")
                     resposta2case1.innerHTML = "Resposta 2 - Errada";
 
@@ -93,7 +93,7 @@ else {
 
             switch (pergunta3) {
 
-                case "1" , "3":
+                case "1":
                     let resposta3case1 = document.getElementById("respostaE3case1")
                     resposta3case1 .innerHTML = "Resposta 3 - Errada";
                     break;
@@ -113,6 +113,5 @@ else {
                 
                     break;
             }
-    }
+   
 }
-
